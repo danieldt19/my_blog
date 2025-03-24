@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hola Dani</title>
+</head>
+<body>
+<h1>Hola mundo</h1>
+<p>Me llamo {{ name }}</p>
+<p>Tengo {{ years }}</p>
+
+<h3>
+    <ul>
+        {% for code in codes %}
+        <li>{{ code }}</li>
+        {% endfor %}
+    </ul>
+</h3>
+</body>
+</html>
